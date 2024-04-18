@@ -1,0 +1,20 @@
+.sidebar{
+  display: flex;
+}
+
+
+.link-menu{
+  display: flex;
+  justify-content: center;
+  line-height: 50px;
+  font-size: 20px;
+  font-family: Arial;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-op a{
+  height: 50px;
+  background-color: gray;
+}
+

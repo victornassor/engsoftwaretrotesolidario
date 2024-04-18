@@ -1,0 +1,55 @@
+.tabela{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+li{
+  margin-left: 40px;
+  max-width: 1200px;
+}
+
+.tabela tr, td{
+  border: 1px solid lightgray;
+  padding: 15px 25px 15px 25px;
+}
+
+.link-referencia{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  color: black;
+  line-height: 30px;
+}
+
+.link-referencia-container{
+  margin-bottom: 10px;
+}
+
+.lista-participacao{
+  max-width: 400px;
+  line-height: 25px
+}
+
+.pontuacao{
+  display: flex;
+  justify-content: center;
+  color: rgb(75, 152, 177);
+  font-size: 18px;
+}
+
+.lista-integrantes{
+  border: 1px solid black;
+  padding: 25px 45px 25px 45px;
+  font-weight: 500;
+  background-color: rgb(199, 218, 225);
+}
+
+.lista-integrantes-container{
+  display: flex;
+  justify-content: center;
+}

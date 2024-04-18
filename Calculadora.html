@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trote Solidário 2024</title>
+    <link rel="stylesheet" href="styles/style-DESKTOP-F1DRBI2.css">
+    <link rel="stylesheet" href="styles/header-DESKTOP-F1DRBI2.css">
+    <link rel="stylesheet" href="styles/general-DESKTOP-F1DRBI2.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/calculadora.css">
+    <script src="Js/calculadora.js"></script>
+</head>
+<body>
+    <div class="header">
+
+        <div class="lado-esquerdo">
+            <div class="logo-cabecalho">
+                <a href="https://www.unifacef.com.br/" target="_blank"><img class ="logofacef" src="imagens/logo-facef.png"></a>
+            </div>
+        </div>
+        <div class="meio">   
+            <div class="texto-container">
+                <a class="texto-cabecalho" href="index.html">Trote Solidário Uni-FACEF 2024</a>
+            </div>
+        </div>
+
+        
+        <div class="lado-direito">
+            <div class="esp-servidor">
+                <a href="https://www.unifacef.com.br/espaco-do-servidor/">Espaço do Servidor</a>
+            </div>
+            <div class="acesso-informacao">
+                <a href=https://unifacef.eddydata.com/gestor-publico/transparencia/franca/030000 target="_blank">Acesso à Informação</a>
+            </div>
+            <div class="e-sic">
+                <a href="https://www.unifacef.com.br/sic-servico-de-informacoes-ao-cidadao/">e-SIC</a>
+            </div>
+            <div class="ava">
+                <a href="https://ava-grad.unifacef.com.br/login/index.php">Ambiente Virtual</a>
+            </div>
+            <div class="portalweb">
+                <a href="https://ava-grad.unifacef.com.br/login/index.php">PortalWeb</a>
+            </div>
+            <div class="webmail">
+                <a href="https://accounts.google.com/AccountChooser/signinchooser?flowName=GlifWebSignIn&flowEntry=AccountChooser&continue=https%3A%2F%2Fmail.google.com%2F&theme=mn&ddm=0">Webmail</a>
+            </div>
+        </div>
+
+            
+    </div>
+    <main class="container">
+        <nav class="sidebar">
+                <div>
+                    <a class="link-menu" href="Introducao.html">Introdução</a>
+                </div>
+                <div>
+                    <a class="link-menu" href="Objetivo.html">Objetivo</a>
+                </div>
+                <div>
+                    <a class="link-menu" href="Formato.html">Formato</a>
+                </div>
+                <div>
+                    <a class="link-menu" href="1etapa.html">1ª Etapa</a> 
+                </div>
+                        
+                <div>
+                    <a class="link-menu" href="2etapa.html">2ª Etapa</a>  
+                </div>
+                    <div>
+                    <a class="link-menu" href="Calculadora.html">Calculadora</a>
+                </div>
+                <div>
+                    <a class="link-menu" href="Observacoes.html">Observações Finais</a>
+                </div>
+                <div>
+                    <a class="link-menu" href="Sobre.html">Sobre</a>
+                </div>  
+        </nav>
+    
+        <div class="conteudo">
+            <div class="principal">
+                <div class="titulo">
+                    <h2>Calculadora Trote Solidário Uni-FACEF</h2>
+                </div>
+                
+                    <div class="calcular-equipe" >
+                        <div>
+                        <label for="cor-equipe">Selecione a Equipe</label>
+                        </div>
+                        <div class="botao-equipe">
+                        <select name="equipe" id="equipe" onchange="equipe()">
+                            <option selected hidden>Selecione</option>
+                            <option value="amarelo">Amarelo</option>
+                            <option value="laranja">Laranja</option>
+                            <option value="roxo">Roxo</option>
+                            <option value="verde">Verde</option>
+                            <option value="vermelho">Vermelho</option>
+                        </select>
+                        </div>
+                    </div>  
+                    <div class="forms">              
+                    <div class="input-pontos">  
+                        
+                        <div id="pontos-p">    
+                        <form>
+                        <label for="leite">Litros de Leite</label>
+                        <input type="number" id="leite" />
+                        <label for="sangue">Quantidade de Doações</label>
+                        <input type="number" id="sangue" />
+                        <label for="acao">Ação Social</label>
+                        <input type="number" id="acao" max="1000"/>
+                        <label for="mascote">Apresentação Mascote</label>
+                        <input type="number" id="mascote" max="500"/>
+                        <label for="quiz">Quiz</label>
+                        <input type="number" id="quiz" max="1000"/>
+                        <label for="extra">Pontuação Extra</label>
+                        <input type="number" id="extra" max="1000"/>
+                        <label for="kit">Kit</label>
+                        <input type="number" id="kit" />
+                        </form>
+                        <div>
+                            <label for="adicionar">Possui itens Adcionais?</label>
+                        </div>
+                        <div id="input-adicional">
+                            <input type="radio" name="adc" id="sim" onclick="sim()" />
+                            <label for="sim">Sim</label>
+                            <input type="radio" name="adc" id="nao" onclick="nao()" />
+                            <label for="nao">Não</label>
+                        </div>  
+                        <div id="botao-calcular">
+                            <button id="calcular" onclick="calcular()">Calcular</button>
+                        </div>
+                        </div>  
+                        <div id="op-adicionais">
+                            <form>
+                                <label for="kit2">Kit Alimentação</label>
+                                <input type="number" name="" id="kit2" />
+                                <label for="lata">Lata de Suplemento</label>
+                                <input type="number" name="" id="lata" />
+                                <label for="arroz5">Arroz 5Kg</label>
+                                <input type="number" name="" id="arroz5" />
+                                <label for="arroz1">Arroz 1</label>
+                                <input type="number" name="" id="arroz1" />
+                                <label for="feijao2">Feijão 2Kg</label>
+                                <input type="number" name="" id="feijao2" />
+                                <label for="feijao1">Feijão 1Kg</label>
+                                <input type="number" name="" id="feijao1" />
+                                <label for="macarrao">Macarrão 500g</label>
+                                <input type="number" name="" id="macarrao" />
+                                <label for="oleo">Óleo 900g</label>
+                                <input type="number" name="" id="oleo" />
+                            </form>
+                        </div>
+                    </div>
+                        <div class="tabela-resultado">
+                            <table class="tabela">
+                                <thead class="primeira-fileira">
+                                    <tr>
+                                        <th>Equipe</th>
+                                        <th>Pontuação</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Amarela</td>
+                                        <td>
+                                            <span id="resp-amarelo"></span>
+                                        </td>                        
+                                    </tr>
+                                    <tr>
+                                        <td>Laranja</td>
+                                        <td>
+                                            <span id="resp-laranja"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Roxa</td>
+                                        <td>
+                                            <span id="resp-roxo"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Verde</td>
+                                        <td>
+                                            <span id="resp-verde"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vermelha</td>
+                                        <td>
+                                            <span id="resp-vermelho"></span>                                       
+                                        </td>
+                                    </tr>  
+                                </tbody>
+                            </table>
+                            
+                        </div>                   
+                                        
+                    </div> 
+                         
+                           
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

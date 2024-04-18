@@ -1,0 +1,110 @@
+#op-adicionais{
+  display: none;
+  margin-left: 120px;
+}
+
+#pontos-p{
+  display: none;
+}
+
+.forms{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#input-adicional{
+  display: flex;
+  gap: 5px;
+  margin:10px;
+}
+
+input{
+  display: block;
+  flex-direction:row;
+  margin-bottom: 16px;
+  padding: 5px;
+  border-radius: 5px ;
+  border: 1px solid lightgray;
+  transition: border 0.15s;
+}
+
+input:hover{
+  border: 1px solid rgb(59, 59, 124)
+}
+
+input:focus{
+  border: 1px solid rgb(59, 59, 124);
+}
+
+.input-pontos{
+  display: flex;
+  flex-direction: row;
+}
+
+.tabela{
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.primeira-fileira{
+  background-color: rgb(59, 59, 124);
+  color: white;
+}
+
+.tabela td, th, tr{
+  border: 1px solid lightgray;
+}
+
+.tabela td, th{
+  padding: 15px 25px 15px 25px;
+}
+
+#equipe{
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.principal{
+  margin-left: 120px;
+}
+
+#botao-calcular{
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+#calcular{
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgb(59, 59, 124);
+  width: 180px;
+  height: 32px;
+  color: white;
+  border: 1px solid lightgray;
+  transition: border, background-color 0.15s;
+}
+
+
+#calcular:hover{
+  background-color: rgb(38, 38, 92);
+  color: white;
+  cursor: pointer;
+}
+
+#calcular:active{
+  background-color: rgb(91, 91, 172);
+}
+
+.calcular-equipe{
+  display: flex;
+  margin-left: 120px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.botao-equipe{
+  align-items: center;
+  margin-left: 10px;
+}

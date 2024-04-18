@@ -1,0 +1,159 @@
+.tabela-container{
+  display: flex;
+  justify-content: center;
+}
+
+.tabela{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tabela td, tr{
+  border: 2px solid black;
+  padding: 15px 25px 15px 25px;
+  height: 50px;
+  max-width: 220px;
+  text-align: center;
+}
+
+.primeira-fileira{
+  background-color: rgb(59, 59, 124);
+  color: white;
+}
+
+.tabela2-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.tabela2{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  max-width: 800px;
+  text-align: center;  
+}
+
+.tabela2 td, tr{
+  border: 2px solid rgb(89, 87, 87);
+  padding: 5px 15px 5px 15px;
+  height: 25px;
+}
+
+.tabela3{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tabela3 td{
+  border: 2px solid black;
+  padding: 15px 35px 15px 35px;
+  height: 40px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.tabela3 th{
+  border: 2px solid black;
+  padding: 5px 10px 5px 10px;
+  height: 30px;
+  width: 200px;
+  text-align: center;
+}
+
+.lista{
+  margin-bottom: 40px;
+}
+
+.lista ul{
+  margin-top: 0;
+}
+
+p{
+  margin-bottom: 0;
+}
+
+
+.pontos-container{
+  display: flex;
+  justify-content: center;
+}
+
+.exp-pontos{
+  background-color: rgb(199, 218, 225);
+  padding: 5px;
+  width: 800px;
+}
+
+.titulo-pontos{
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.tabela4 td{
+  border: 2px solid black;
+  padding: 15px 55px 15px 55px;
+  height: 40px;
+  max-width: 350px;
+  text-align: center;
+}
+
+.tabela4 th{
+  border: 2px solid black;
+  padding: 5px 10px 5px 10px;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+}
+.tabela4{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.legenda p{
+  font-size: 12px;
+}
+
+.legenda{
+  margin-left: 250px;
+  margin-top: 0px;
+}
+
+.exp-pontos2 li{
+  display: flex;
+  gap: 15px;
+}
+.dotted{
+  width:100vh;
+  border-style: none none dotted none;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.exp-pontos2{
+  background-color: rgb(199, 218, 225);
+}
+
+.exp-pontos2 ul, li{
+  line-height: 1.5em;
+}
+
+.exp-pontos2{
+  padding: 5px 20px 5px 20px;
+  max-width: 100%;
+}
+
+.pontos-container2{
+  display: flex;
+  justify-content: center;
+}
+
+#p-pontos{
+  padding-left: 105px;
+}

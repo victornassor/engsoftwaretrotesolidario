@@ -1,0 +1,56 @@
+table{
+  margin: auto;
+}
+table td{
+  padding: 10px;
+}
+.negrito{
+  font-weight: bold;
+}
+
+.tabela-container{
+  display: flex;
+  justify-content: center;
+}
+
+.segunda-fileira{
+  border: 2px solid lightgray;
+}
+
+.primeira-fileira{
+  margin: 0;
+  padding: 10px 35px 10px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  font-weight: 700;
+  margin-bottom: none;
+  border: 2px solid lightgray;
+  border-right: none;
+  margin-right: -2px;
+}
+
+.segundafileira{
+  padding: 10px 35px 10px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  font-weight: 700;
+  margin-top: none;
+}
+
+.titulo-fileira{
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.segunda-fileira li{
+  font-weight: 300;
+  font-size: 13px;
+  max-width: 280px;
+  margin-right: 30px;
+}

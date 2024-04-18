@@ -1,0 +1,32 @@
+.sidebar{
+  flex: 1;
+  border-right: 1px solid lightgray;
+  padding-top: 30px;
+}
+
+.link-menu{
+  padding-left: 4px;
+  margin-left: 0px;
+  display:flex;
+  justify-content: center;
+  background-color: white;
+  height: 93px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.15s;
+  color: black;
+}
+
+.link-menu:hover{
+  color: white;
+  background-color: rgb(52, 79, 138);
+  text-decoration: none;
+}
+
+.link-menu:active{
+  color: white;
+  opacity: 0.9;
+  background-color: rgb(79, 105, 161);
+}
